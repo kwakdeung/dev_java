@@ -1,0 +1,22 @@
+class Student1
+{
+	String name;
+	int age;
+}
+
+class Student2
+{
+	public String name;
+	private int age;
+}
+public class Pratice {
+	public static void main(String[] args) 
+	{
+		
+	}
+
+	
+	
+}
+
+

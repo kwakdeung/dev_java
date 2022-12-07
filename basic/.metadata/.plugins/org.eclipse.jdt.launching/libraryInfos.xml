@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="/Users/junyeong/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.5.v20221102-0933/jre" version="17.0.5"/>
+    <libraryInfo home="C:\Users\곽준영\Desktop\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149" version="16.0.2"/>
+    <libraryInfo home="/Library/Java/JavaVirtualMachines/jdk-11.0.17.jdk/Contents/Home" version="11.0.17"/>
+    <libraryInfo home="/Users/junyeong/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.5.v20221102-0933" version="17.0.5"/>
+    <libraryInfo home="C:\Users\곽준영\Desktop\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre" version="16.0.2"/>
+    <libraryInfo home="C:\Users\BlockChain1\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_11.0.2.v20200815-0835\jre" version="11.0.2"/>
+    <libraryInfo home="C:\Users\BlockChain1\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_11.0.2.v20200815-0835" version="11.0.2"/>
+    <libraryInfo home="C:\BlockChain\jdk-11" version="11"/>
+</libraryInfos>

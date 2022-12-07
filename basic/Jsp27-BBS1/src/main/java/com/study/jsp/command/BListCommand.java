@@ -1,0 +1,30 @@
+package com.study.jsp.command;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.study.jsp.dao.BDao;
+import com.study.jsp.dto.BDto;
+
+
+
+public class BListCommand implements BCommand {
+	
+	@Override    
+	public void execute(HttpServletRequest request, HttpServletResponse response) 
+	{
+		
+		BDao dao = new BDao();
+		ArrayList<BDto> dtos = dao.list();
+		request.setAttribute("list", dtos);
+		// element.setAttribute( '속성' , '값' ); - 속성을 추가한다(HTML표준X 포함)
+		
+	}
+
+}

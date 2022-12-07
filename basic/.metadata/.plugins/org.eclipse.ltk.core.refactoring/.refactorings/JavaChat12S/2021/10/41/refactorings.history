@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;MultiServer6.java&apos; to &apos;MultiServer7.java&apos;&#x0D;&#x0A;- Original project: &apos;JavaChat12S&apos;&#x0D;&#x0A;- Original element: &apos;MultiServer6.java&apos;&#x0D;&#x0A;- Renamed element: &apos;MultiServer7.java&apos;" description="Rename compilation unit &apos;MultiServer6.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{MultiServer6.java" name="MultiServer7.java" references="false" stamp="1633412365540" version="1.0"/>
+</session>

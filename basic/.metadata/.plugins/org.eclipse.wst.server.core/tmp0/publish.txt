@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Fri Dec 03 11:48:27 KST 2021
+org.eclipse.jst.jee.server\:ChatExample=C\:\\BlockChain\\apache-tomcat-9.0.54\\wtpwebapps\\ChatExample
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\51012\\.m2\\repository\\org\\springframework\\spring-web\\4.3.12.RELEASE\\spring-web-4.3.12.RELEASE.jar=C\:\\BlockChain\\apache-tomcat-9.0.54\\wtpwebapps\\ChatExample\\WEB-INF\\lib\\spring-web-4.3.12.RELEASE.jar

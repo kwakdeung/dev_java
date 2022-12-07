@@ -1,0 +1,29 @@
+class Book
+{
+	String title;
+	int price;
+	int num = 0;
+	
+	Book()
+	{
+		title = "자바프로그래밍";
+		price = 30000;
+	}
+	
+	Book(String t, int p)
+	{
+		title = t;
+		price = p;
+	}
+}
+public class Pratice {
+	public static void main(String[] args) 
+	{
+		
+	}
+
+	
+	
+}
+
+

@@ -1,0 +1,16 @@
+
+public class Pratice {
+	int num;
+	
+	public static void main(String[] args) {
+		Book book1 = new Book();
+		Book book2 = new Book();
+		
+		book1.num = 10;
+		book2.num = 20;
+	}
+	
+	
+}
+
+

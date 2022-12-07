@@ -1,0 +1,1 @@
+INDEX VERSION 1.4+C:\BlockChain\00.Java,JSP\work\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes

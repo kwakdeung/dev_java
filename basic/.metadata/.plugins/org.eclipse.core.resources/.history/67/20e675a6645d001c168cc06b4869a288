@@ -1,0 +1,33 @@
+class Calc
+{
+	int add(int a, int b)
+	{
+		return a + b;
+	}
+	
+	int add(int a)
+	{
+		return a + 1;
+	}
+	
+	double add(double a, double b)
+	{
+		return a + b;
+	}
+}
+public class Pratice {
+	public static void main(String[] args) {
+		Npc saram1 = new Npc();
+		
+		saram1.name = "경비";
+		saram1.hp = 100;
+		System.out.println(saram1.name + ":" + saram1.hp);
+		
+		saram1.say();
+	}
+
+	
+	
+}
+
+

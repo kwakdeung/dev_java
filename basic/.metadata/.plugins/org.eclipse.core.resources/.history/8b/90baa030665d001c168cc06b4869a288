@@ -1,0 +1,44 @@
+class Student1
+{
+	String name;
+	int age;
+}
+
+class Student2
+{
+	public String name;
+	private int age;
+	
+	public Student2(String name, int age)
+	{
+		this.name = name;
+		this.age = age;
+	}
+	
+	public int getAge()
+	{
+		return age;
+	}
+	
+	public void setAge(int age)
+	{
+		if (age < 0 || age > 150)
+		{
+			System.out.println("나이가 부적절합니다.");
+			this.age = 0;
+			return;
+		}
+		this.age = age;
+	}
+}
+public class Pratice {
+	public static void main(String[] args) 
+	{
+		
+	}
+
+	
+	
+}
+
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.study.spring.dao.IDao">
+
+	<select id="listDao" resultType="com.study.spring.dto.ContentDto">
+		SELECT * FROM mvc_board ORDER BY bGroup DESC, bStep ASC
+	</select>
+	
+	 <select id="content_viewDao" resultType="com.study.spring.dto.ContentDto">
+		SELECT * FROM mvc_board WHERE bId = #{param1}
+	</select>
+	
+	<update id="upHitDao">
+		UPDATE mvc_board SET bHit = bHit + 1 WHERE bId = #{param1}
+	</update>
+	
+	<insert id="writeDao">
+		INSERT INTO mvc_board(bId, bName, bTitle, bContent, bHit, bGroup, bStep, bIndent) VALUES (mvc_board_seq.nextval, #{param1}, #{param2}, #{param3}, 0, mvc_board_seq.currval, 0, 0)
+	</insert>
+	
+	<delete id="deleteDao">
+		DELETE FROM mvc_board WHERE bID = #{param1}
+	</delete>
+	
+	<select id="reply_viewDao" resultType="com.study.spring.dto.ContentDto">
+		SELECT * FROM mvc_board WHERE bId = #{param1}
+	</select>
+	
+	<insert id="replyDao">
+		INSERT INTO mvc_board(bId, bName, bTitle, bContent, bGroup, bStep, bIndent) VALUES (mvc_board_seq.nextval, #{param1}, #{param2}, #{param3}, #{param4}, #{param5}+1, #{param6}+1)
+	</insert>
+	
+	<update id="replyShapeDao">
+		<![CDATA[
+			UPDATE mvc_board SET bStep = bStep + 1 WHERE bGroup=#{param1} and bStep > #{param2}
+		]]>
+		<!-- UPDATE mvc_board SET bStep = bStep + 1 WHERE bGroup=#{param1} and bStep > #{param2} -->
+	</update>
+	
+	<update id="modifyDao">
+		UPDATE mvc_board SET bName=#{param1}, bTitle=#{param2}, bContent=#{param3} where bId=#{param4}
+	</update>
+	
+</mapper>
